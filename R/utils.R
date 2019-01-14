@@ -6,7 +6,7 @@
 BioFormats.version = function() {
 library(rJava)
 .jinit()
-.jaddClassPath("c://Users/mlascaleia/Desktop/bioformats_package.jar")
+.jaddClassPath("I://Departments/Research/Echinacea Project/RBioFormatsPackageCall/bioformats_package.jar")
 .jfield("loci/formats/FormatTools", "S", "VERSION")
 }
 
